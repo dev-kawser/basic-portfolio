@@ -12,11 +12,12 @@ nav {
 .nav-tittle {
     color: (#181818);
     font-size: 45px;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .text-primary {
     color: #FD6E0A;
+    font-size: 40px;
 }
 
 nav>ul {
