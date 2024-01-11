@@ -213,7 +213,8 @@ footer {
     width: 50%;
 }
 
-.contact input[type="text"], .contact input[type="email"],
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
     display: block;
     margin-bottom: 24px;
@@ -225,9 +226,77 @@ textarea {
     border: 0;
 }
 
-.socia-links a{
+.socia-links a {
     margin-left: 24px;
 }
-.socia-links{
+
+.socia-links {
     text-align: center;
 }
+
+
+/* Responsive design */
+
+.hide {
+    display: none;
+}
+
+/* for mobile */
+
+@media screen and (max-width: 576px) {
+
+    .banner,
+    #what-i-do {
+        padding: 20px;
+    }
+
+    .btn-primary {
+        margin-bottom: 20px;
+    }
+
+    nav>ul {
+        gap: 10px;
+    }
+
+    nav,
+    nav>ul,
+    .skills-container,
+    .resume-container,
+    .about-info-container {
+        flex-direction: column;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .about {
+        padding: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 85%;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner .profile-pic {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* for tablet */
